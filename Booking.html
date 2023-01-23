@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<title>Booking</title> 
+<link rel="stylesheet" type="text/css" href="ICR.css">
+<script src="ICR.js"></script>     
+    
+     <div class="a">   
+  <a target="_blank" href="logo.png">
+      <b float: left;><img src="logo.png" alt="company logo" width="100" height="100"></b>
+  </a>
+    
+<h1>ICR </h1>
+<h2>INTERNATIONAL CUISINE RESTAURANT </h2>
+</div> 
+
+<div class="a">
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Website content</button>
+  <div id="myDropdown" class="dropdown-content">
+        <a href="Index.html">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Booking.html">Booking</a>
+    <a href="Contact_us.html">Contact us</a>  
+    <a href="Gallery.html">Gallery</a>  
+  </div>    
+   </div>     
+<body>
+
+<div class="a">    
+   <h2>Reservation Form</h2>
+   <h3>Please enter your booking details below:</h3>    
+</div>
+  
+    
+<form action="/action_page.php">
+ <p>
+    <div class="a"> 
+       <label for="fname">Full Name:</label> <input type="text" id="fname" name="fname" required=yes> <input type="text" id="lname" name="lname" required=yes> <br><br>
+       <label for="email">E-mail:</label><input type="text" id="email" name="email" required=yes><br><br> 
+       <label for="phone">Phone:</label><input type="text" id="phone" name="phone" required=yes><br><br>
+       <label for="guestAmount">Number of Guests:</label><input type="text" id="guestAmount" name="guestAmount" size= "1" maxlength="2" required=yes><br><br> 
+       <label for="specialRequest"><div>Any Special Requests?</div></label>
+       <textarea id="specialRequest" name="specialRequest" required=yes rows="6" cols="50"></textarea><br><br>  
+    
+        <input type="submit" value="Submit">
+     </div>    
+</p>     
+    
+  
+</form> 
+
+</body>
+</html>
